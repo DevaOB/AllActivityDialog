@@ -47,6 +47,7 @@ public class MainActivity extends BaseActivity  {
                 if (careTopDialog != null && !careTopDialog.isShowing()) {
                     careTopDialog.show();
                 }
+
                 break;
             case R.id.btn2:
                 OrderTopDialog orderTopDialog = new OrderTopDialog(this);
