@@ -27,6 +27,7 @@ public class MainActivity extends BaseActivity  {
     }
 
 
+
     @Override
     protected void initData() {
         PayResultBean payResultBean = gson.fromJson(json, PayResultBean.class);
