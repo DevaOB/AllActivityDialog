@@ -26,6 +26,7 @@ public class MainActivity extends BaseActivity  {
         return R.layout.activity_main;
     }
 
+
     @Override
     protected void initData() {
         PayResultBean payResultBean = gson.fromJson(json, PayResultBean.class);
